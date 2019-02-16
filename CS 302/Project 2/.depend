@@ -1,0 +1,4 @@
+Stack.o: Stack.h
+StackArray.o: StackArray.h Stack.h StackArray.cpp
+StackLinked.o: StackLinked.h Stack.h StackLinked.cpp
+config.o: config.h

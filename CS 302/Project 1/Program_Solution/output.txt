@@ -1,0 +1,73 @@
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+1
+Enter a number: 2
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+1
+Enter a number: 3
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+1
+Enter a number: 4
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+1
+Enter a number: 5
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+3
+The size of the linked list is: 4
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+2
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+3
+The size of the linked list is: 3
+Options: 
+1 - Adding a new item
+2 - Delete an item
+3 - Show the number of items
+4 - Show all items
+5 - Exit the program
+Please enter your option: 
+4
+The Element of linked list are: 3
+The Element of linked list are: 4
+The Element of linked list are: 5

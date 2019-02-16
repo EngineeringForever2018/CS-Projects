@@ -1,0 +1,1 @@
+StackArray.o: StackArray.h Stack.h StackArray.cpp
