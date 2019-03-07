@@ -38,7 +38,7 @@ int main() {
   }
   files.close();
   start = clock();
-  bubbleSort(number, 99999);  //wait for 30 second for the compile to read and sorted it
+  bubbleSort(number, 100000);  //wait for 30 second for the compile to read and sorted it
   end = clock();
   for(int j = 0; j <= 99999; j++) {
     cout << number[j] << endl;
