@@ -1,4 +1,5 @@
 //Jared Lam CS 302 homework 3 3/4/19
+//Our assignment is to get a lot of random number from each 3 file then we have to sorted by using these types of sorting algorithm
 #include <iostream>
 #include <cstdlib> //rand or srand
 #include <ctime>
