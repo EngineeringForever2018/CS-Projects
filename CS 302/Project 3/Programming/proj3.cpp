@@ -23,7 +23,7 @@ int main() {
   clock_t start = clock();
   quicksort(number, 0, 9999);
   clock_t end = clock();
-  for(int j = 0; j <= 99999; j++) {
+  for(int j = 0; j <= 9999; j++) {
     cout << number[j] << endl;
   }
   cout << "CPU time: " << ((float)(end - start))/CLOCKS_PER_SEC << endl;
@@ -34,7 +34,7 @@ int main() {
   //files.open("1000.txt");
   for(int i = 0; i < 10000; i++) {
      //reading the files
-     files >> number[i];
+     files >> nmber[i];
   }
   files.close();
   start = clock();
