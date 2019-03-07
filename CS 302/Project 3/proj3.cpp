@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-  int number[10000];
+  int number[100000];
   fstream files;
   //files.open("100000.txt");
   files.open("10000.txt");
@@ -23,9 +23,9 @@ int main() {
   clock_t start = clock();
   quicksort(number, 0, 9999);
   clock_t end = clock();
-  for(int j = 0; j <= 99999; j++) {
+  /*for(int j = 0; j <= 99999; j++) {
     cout << number[j] << endl;
-  }
+  }*/
   cout << "CPU time: " << ((float)(end - start))/CLOCKS_PER_SEC << endl;
   cout << "Compare: " << COMPARE << endl;
   cout << "Swap: " << SWAP << endl;
