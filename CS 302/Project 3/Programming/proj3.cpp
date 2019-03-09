@@ -11,11 +11,13 @@
 using namespace std;
 
 int main() {
-  int number[1000];
+  //int number[100000]; //For file 1000.txt
+  int number[10000]; //For file 10000.txt
+  //int number[1000]; //For file 1000.txt
   fstream files;
   //files.open("100000.txt");  //For file 100000.txt
-  //files.open("10000.txt");   //For file 10000.txt
-  files.open("1000.txt");      //For file 1000.txt
+  files.open("10000.txt");   //For file 10000.txt
+  //files.open("1000.txt");      //For file 1000.txt
   /* for(int i = 0; i < 100000; i++) {    //For file 100000.txt
      //reading the files
      files >> number[i];
