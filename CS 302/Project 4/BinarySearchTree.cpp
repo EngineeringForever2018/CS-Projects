@@ -17,12 +17,7 @@ BinarySearchTree<ItemType>::BinarySearchTree(const ItemType& rootItem)
 template<class ItemType>
 BinarySearchTree<ItemType>::BinarySearchTree(const BinarySearchTree<ItemType>& tree)
 {
- BinaryNode<ItemType>* newTreePtr = nullptr;
-// Copy tree nodes during a preorder traversal
- newTreePtr = new BinaryNode<ItemType>(tree.rootPtr->getItem(), nullptr, nullptr);
- newTreePtr->setLeftChildPtr(copyTree(tree.rootPtr->getLeftChildPtr()));
- newTreePtr->setRightChildPtr(copyTree(tree.rootPtr->getRightChildPtr()));
- rootPtr = newTreePtr;
+ rootPtr 
   // end if
 // Else tree is empty (newTreePtr is nullptr)
 }

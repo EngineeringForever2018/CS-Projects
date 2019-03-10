@@ -40,7 +40,7 @@ protected:
  // or nullptr if not found.
  BinaryNode<ItemType>* findNode(std::shared_ptr<BinaryNode<ItemType>> treePtr, const ItemType& target) const;
 
- // Copies the tree rooted at treePtr 
+ // Copies the tree rooted at treePtr
 
 public:
  //------------------------------------------------------------
