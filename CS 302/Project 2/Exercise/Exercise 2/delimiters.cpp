@@ -75,4 +75,6 @@ bool delimitersOk ( const string &expression ) {
     }
   }
   return array.isEmpty();
+
+  //)( need to figure it out what is wrong with this case got segment fault
 }
