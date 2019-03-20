@@ -66,7 +66,12 @@ bool delimitersOk ( const string &expression ) {
       array.push(expression[i]);
     }
     else if(expression[i] == ')' || expression[i] == ']' || expression[i] == '}'){
-      top = array.pop();
+      if(!array.isEmpty()) {
+        top = array.pop();
+      }
+      else {
+        return false;
+      }
       if(top != '(' || top != '[' || top != '{') {
         return false;
       }
