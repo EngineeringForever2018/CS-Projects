@@ -44,11 +44,12 @@ void StackArray<DataType>::push(const DataType& newDataItem) throw (logic_error)
 template <typename DataType>
 DataType StackArray<DataType>::pop() throw (logic_error) {
   if(isEmpty()) {
-    throw(logic_error("Warning"));
+    throw logic_error("Warning");
   }
   else {
-    --top;
-    return dataItems[top];
+    DataType temp = dataItems[top - 1];
+    top--;
+    return temp;
   }
 }
 

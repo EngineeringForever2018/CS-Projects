@@ -1,3 +1,0 @@
-BinarySearchTree.o: BinarySearchTree.h BinaryNode.h BinaryNode.cpp \
-  BinarySearchTree.cpp
-BinaryNode.o: BinaryNode.h BinaryNode.cpp

@@ -1,7 +1,7 @@
 TARGET = proj4
 LIBS = -lm #Math library, just a placeholder
-HEADERS = BinarySearchTree.h BinaryNode.h
-SRCS = proj4.cpp BinarySearchTree.cpp BinaryNode.cpp
+HEADERS = BinarySearchTree.h 
+SRCS = proj4.cpp
 OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))
 CXX = g++
 CXX_FLAGS = -g -Wall -std=c++11 #C++11 is just for reference, not necessary

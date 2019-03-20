@@ -10,9 +10,9 @@ class BinaryNode {
      BinaryNode<ItemType>* rightChildPtr; // Pointer to right child
   public:
      BinaryNode();
-     BinaryNode( const ItemType& anItem);
-     BinaryNode( const ItemType& anItem,BinaryNode<ItemType>* leftPtr, BinaryNode<ItemType>* rightPtr);
-     void setItem( const ItemType& anItem);
+     BinaryNode(const ItemType& anItem);
+     BinaryNode(const ItemType& anItem,BinaryNode<ItemType>* leftPtr, BinaryNode<ItemType>* rightPtr);
+     void setItem(const ItemType& anItem);
      ItemType getItem() const;
      bool isLeaf() const;
      BinaryNode<ItemType>* getLeftChildPtr() const;

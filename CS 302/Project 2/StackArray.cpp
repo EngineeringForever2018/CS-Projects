@@ -43,8 +43,9 @@ DataType StackArray<DataType>::pop() throw (logic_error) {
     throw(logic_error("Warning"));
   }
   else {
+    DataType temp = dataItems[top - 1];
     --top;
-    return dataItems[top];
+    return temp;
   }
 }
 
