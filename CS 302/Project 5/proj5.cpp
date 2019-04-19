@@ -14,7 +14,7 @@ int main() {
 
  vector<int> v1;
  srand(time(NULL));
- int temp;
+ int temp = 0;
  for(int i = 0; i < NUMBER_VALUE; i++) {
    v1.push_back(rand());
  }
