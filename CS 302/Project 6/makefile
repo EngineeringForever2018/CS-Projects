@@ -4,7 +4,7 @@ HEADERS =
 SRCS = Main.cpp LeftLeaningRedBlack.cpp
 OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))
 CXX = g++
-CXX_FLAGS = -g -Wall  -fmax-errors=4 #C++11 is just for reference, not necessary
+CXX_FLAGS = -g -Wall -std=c++11 #C++11 is just for reference, not necessary
 
 .PHONY: default all clean
 
