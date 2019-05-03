@@ -1,0 +1,5 @@
+Enter the Cost Matrix
+Entered Cost Matrix:
+Path: 1 5 4 3 2 1
+Minimum Cost:
+3350
