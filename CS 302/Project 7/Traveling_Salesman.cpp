@@ -1,5 +1,5 @@
 //This is Jared Lam Project 7 CS 302
-//I am using Traveling Salesman Problem which includes an algorithm step to solve this problem
+//I am using Traveling Salesman Problem (tsp()) which includes an algorithm step to solve this problem
 
 #include <iostream>
 #include <vector>
@@ -16,7 +16,7 @@ void min_cost(int city);
 
 int tsp(int point) {
   int count = 0;
-  int nc = 999;
+  int nc = 999; //nc = near city that goes to another city
   //int Reno = 0;
   int minimum = 999, temp;
   while(count < cities) {
@@ -35,7 +35,7 @@ int tsp(int point) {
   return nc;
 }
 
-void min_cost(int city) {
+void min_cost(int city) { //goes through each city to hit all the city and goes back to the original city which is Reno
   int nc = tsp(city);
   travel_cities[city] = 1;
   cout << city + 1 << ' ';
@@ -61,13 +61,13 @@ int main()
     while(i < cities) {
       cout << endl;
       while(j < cities) {
-         cout << matrix[i][j] << ' '; //space character in there
+         cout << matrix[i][j] << ' '; //space character in there and goes through each city to find the shortest path to visited each city possible route
          j++;
       }
       i++;
     }
     cout << endl;
-    cout << "Path: ";
+    cout << "Possible route (path): ";
     min_cost(0);
     cout << endl << "Minimum Cost: \t" << endl;
     cout << cost << endl;
