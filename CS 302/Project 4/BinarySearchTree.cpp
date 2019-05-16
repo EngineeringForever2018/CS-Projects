@@ -133,7 +133,7 @@ int BinarySearchTree<ItemType>::getHeightHelper(BinaryNode<ItemType>* subTreePtr
 
 } //end getHeightHelper
 
-//Visit the roots, then first, and lastly right. Then perform the action based on the user's vist function
+//Visit the roots, then left, and lastly right. Then perform the action based on the user's vist function
 //we used recursion to visit the entire tree.
 template<class ItemType>
 void BinarySearchTree<ItemType>::preorder(void visit(ItemType&), BinaryNode<ItemType>* treePtr) const {
